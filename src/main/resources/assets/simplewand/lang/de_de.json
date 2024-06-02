@@ -1,3 +1,4 @@
 {
-    "item.simplewand.wand": "Zauberstab"
+    "item.simplewand.wand": "Zauberstab",
+    "block.simplewand.spell_bench": "Zauberbank"
 }
