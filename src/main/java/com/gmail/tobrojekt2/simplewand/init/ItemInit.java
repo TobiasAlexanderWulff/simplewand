@@ -13,7 +13,7 @@ public class ItemInit {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS,
                         SimpleWand.MODID);
 
-        public static final RegistryObject<Item> WAND = ITEMS.register("wand",
+        public static final RegistryObject<Item> WAND_ITEM = ITEMS.register("wand",
                         () -> new Item(new Item.Properties()
                                         .rarity(Rarity.EPIC)));
 
