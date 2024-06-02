@@ -1,5 +1,6 @@
 package com.gmail.tobrojekt2.simplewand;
 
+import com.gmail.tobrojekt2.simplewand.init.BlockInit;
 import com.gmail.tobrojekt2.simplewand.init.ItemInit;
 
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,6 +16,7 @@ public class SimpleWand {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemInit.ITEMS.register(modEventBus);
+        BlockInit.BLOCKS.register(modEventBus);
     }
 
 }
