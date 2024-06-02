@@ -1,6 +1,7 @@
 package com.gmail.tobrojekt2.simplewand;
 
 import com.gmail.tobrojekt2.simplewand.init.BlockInit;
+import com.gmail.tobrojekt2.simplewand.init.CreativeTabInit;
 import com.gmail.tobrojekt2.simplewand.init.ItemInit;
 
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,6 +18,7 @@ public class SimpleWand {
 
         ItemInit.ITEMS.register(modEventBus);
         BlockInit.BLOCKS.register(modEventBus);
+        CreativeTabInit.CREATIVE_TABS.register(modEventBus);
     }
 
 }
