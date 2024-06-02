@@ -17,8 +17,8 @@ public class ItemInit {
                         () -> new Item(new Item.Properties()
                                         .rarity(Rarity.EPIC)));
 
-        public static final RegistryObject<BlockItem> SPELL_BENCH_BLOCK_ITEM = ITEMS.register("spell_bench_block",
-                        () -> new BlockItem(BlockInit.SPELL_BENCH_BLOCK.get(),
+        public static final RegistryObject<BlockItem> SPELL_BENCH_ITEM = ITEMS.register("spell_bench",
+                        () -> new BlockItem(BlockInit.SPELL_BENCH.get(),
                                         new Item.Properties()
                                                         .rarity(Rarity.UNCOMMON)));
 }

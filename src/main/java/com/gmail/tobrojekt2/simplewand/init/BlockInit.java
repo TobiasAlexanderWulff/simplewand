@@ -12,7 +12,7 @@ public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
             SimpleWand.MODID);
 
-    public static final RegistryObject<Block> SPELL_BENCH_BLOCK = BLOCKS.register("spell_bench_block",
+    public static final RegistryObject<Block> SPELL_BENCH = BLOCKS.register("spell_bench",
             () -> new Block(Block.Properties.copy(Blocks.CRAFTING_TABLE)));
 
 }
