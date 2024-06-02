@@ -2,6 +2,7 @@ package com.gmail.tobrojekt2.simplewand.init;
 
 import com.gmail.tobrojekt2.simplewand.SimpleWand;
 
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,4 +16,9 @@ public class ItemInit {
         public static final RegistryObject<Item> WAND = ITEMS.register("wand",
                         () -> new Item(new Item.Properties()
                                         .rarity(Rarity.EPIC)));
+
+        public static final RegistryObject<BlockItem> SPELL_BENCH_BLOCK_ITEM = ITEMS.register("spell_bench_block",
+                        () -> new BlockItem(BlockInit.SPELL_BENCH_BLOCK.get(),
+                                        new Item.Properties()
+                                                        .rarity(Rarity.UNCOMMON)));
 }
