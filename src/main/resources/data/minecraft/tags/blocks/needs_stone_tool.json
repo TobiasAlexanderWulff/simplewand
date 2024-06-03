@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "simplewand:amethyst_ore",
+        "simplewand:deepslate_amethyst_ore",
+        "simplewand:nether_amethyst_ore",
+        "simplewand:end_amethyst_ore"
+    ]
+}

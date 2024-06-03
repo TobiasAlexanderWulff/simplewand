@@ -1,4 +1,8 @@
 {
+    "block.simplewand.amethyst_ore": "Amethyst Ore",
+    "block.simplewand.deepslate_amethyst_ore": "Deepslate Amethyst Ore",
+    "block.simplewand.nether_amethyst_ore": "Nether Amethyst Ore",
+    "block.simplewand.end_amethyst_ore": "End Amethyst Ore",
     "item.simplewand.wand": "Wand",
     "block.simplewand.spell_bench": "Spell Bench",
     "itemGroup.simplewand_tab": "Simple Wand"

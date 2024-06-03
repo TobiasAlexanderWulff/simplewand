@@ -50,5 +50,11 @@ public class CreativeTabInit {
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.getEntries().putAfter(Items.ENCHANTING_TABLE.getDefaultInstance(), ItemInit.SPELL_BENCH_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.getEntries().putAfter(Items.DIAMOND_ORE.getDefaultInstance(), ItemInit.AMETHYST_ORE_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.DEEPSLATE_DIAMOND_ORE.getDefaultInstance(), ItemInit.DEEPSLATE_AMETHYST_ORE_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.NETHER_QUARTZ_ORE.getDefaultInstance(), ItemInit.NETHER_AMETHYST_ORE_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.END_STONE.getDefaultInstance(), ItemInit.END_AMETHYST_ORE_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
     }
 }

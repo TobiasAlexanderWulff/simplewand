@@ -1,4 +1,8 @@
 {
+    "block.simplewand.amethyst_ore": "Amethyst Erz",
+    "block.simplewand.deepslate_amethyst_ore": "Tiefenschiefer Amethyst Erz",
+    "block.simplewand.nether_amethyst_ore": "Nether Amethyst Erz",
+    "block.simplewand.end_amethyst_ore": "End Amethyst Erz",
     "item.simplewand.wand": "Zauberstab",
     "block.simplewand.spell_bench": "Zauberbank",
     "itemGroup.simplewand_tab": "Simple Wand"
