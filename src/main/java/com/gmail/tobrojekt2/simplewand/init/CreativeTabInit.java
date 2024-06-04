@@ -56,5 +56,8 @@ public class CreativeTabInit {
             event.getEntries().putAfter(Items.NETHER_QUARTZ_ORE.getDefaultInstance(), ItemInit.NETHER_AMETHYST_ORE_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().putAfter(Items.END_STONE.getDefaultInstance(), ItemInit.END_AMETHYST_ORE_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.getEntries().putFirst(ItemInit.SOUL_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
     }
 }

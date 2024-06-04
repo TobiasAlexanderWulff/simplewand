@@ -17,6 +17,11 @@ public class ItemInit {
                         .stacksTo(1)
         )));
 
+        public static final RegistryObject<Item> SOUL_ITEM = addToTab(ITEMS.register("soul",
+                () -> new Item(new Item.Properties()
+                        .stacksTo(16)
+        )));
+
         public static final RegistryObject<BlockItem> SPELL_BENCH_ITEM = addToTab(ITEMS.register("spell_bench",
                 () -> new BlockItem(BlockInit.SPELL_BENCH.get(),
                         new Item.Properties()
