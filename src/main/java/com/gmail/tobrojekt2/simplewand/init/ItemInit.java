@@ -1,6 +1,8 @@
 package com.gmail.tobrojekt2.simplewand.init;
 
 import com.gmail.tobrojekt2.simplewand.SimpleWand;
+import com.gmail.tobrojekt2.simplewand.init.items.WandItem;
+
 import static com.gmail.tobrojekt2.simplewand.init.CreativeTabInit.addToTab;
 
 import net.minecraft.world.item.BlockItem;
@@ -13,8 +15,7 @@ public class ItemInit {
         public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SimpleWand.MODID);
 
         public static final RegistryObject<Item> WAND_ITEM = addToTab(ITEMS.register("wand",
-                () -> new Item(new Item.Properties()
-                        .stacksTo(1)
+                () -> new WandItem(new Item.Properties()
         )));
 
         public static final RegistryObject<Item> SOUL_ITEM = addToTab(ITEMS.register("soul",
