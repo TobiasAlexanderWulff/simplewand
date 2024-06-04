@@ -58,6 +58,7 @@ public class CreativeTabInit {
         }
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.getEntries().putFirst(ItemInit.SOUL_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(Items.STRING.getDefaultInstance(), ItemInit.CLOTH_ITEM.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }
 }
